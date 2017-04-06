@@ -172,8 +172,7 @@ namespace TestProj.Core
         {
             return new ListViewDefinition
             {
-                Title = "Last 10 Created Documents",
-                RowLimit = 10,
+                Title = "Project Documents",                
                 Query = CreateQuery(),
                 Fields = new Collection<string>
                 {
