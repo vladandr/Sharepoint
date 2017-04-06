@@ -20,13 +20,13 @@ namespace TestProj
 
             var context = connector.Connect(url, login, password);
 
-           // var taxonomyCreator = new TaxonomyCreator(siteDeployer, context);
+            var taxonomyCreator = new TaxonomyCreator(siteDeployer, context);
             var projectListCreator = new ProjectListCreator(webDeployer, context);
-           // var projectDocumentsListCreator = new ProjectDocumentsListCreator(webDeployer, context);
+            var projectDocumentsListCreator = new ProjectDocumentsListCreator(webDeployer, context);
 
-            //taxonomyCreator.Deploy();
+            taxonomyCreator.Deploy();
             projectListCreator.Deploy();
-           // projectDocumentsListCreator.Deploy();
+            projectDocumentsListCreator.Deploy();
             Console.WriteLine("Good");
             Console.ReadKey();
         }
