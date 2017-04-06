@@ -222,7 +222,6 @@ namespace TestProj.Core
             return new ListViewDefinition
             {
                 Title = T.ManagedProjectsListViewTitleName,
-                RowLimit = 10,
                 Query = CreateQuery(),
                 Fields = new Collection<string>
                 {
