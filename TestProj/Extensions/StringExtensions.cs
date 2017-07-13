@@ -11,7 +11,7 @@ namespace TestProj.Extensions
             {
                 pass.AppendChar(ch);
             }
-            
+
             return pass;
         }
     }
