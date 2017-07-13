@@ -1,5 +1,6 @@
 ﻿using System.Security;
 
+
 namespace TestProj.Extensions
 {
     public static class StringExtensions
